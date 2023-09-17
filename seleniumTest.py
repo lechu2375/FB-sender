@@ -7,14 +7,15 @@ import openai
 import json
 
 #gpt config
-
+openai.organization = ""
+openai.api_key = ""
 
 
 
 
 
 driver = webdriver.Chrome()
-driver.get('https://www.facebook.com/messages/t/100003896509329') #odpali się od razu po zalogowaniu na fb
+driver.get('https://www.facebook.com/messages/t/100003896509329')
 
 
 
